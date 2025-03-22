@@ -9,7 +9,6 @@ engine = pyttsx3.init()
 def speak(text):
     engine.say(text)
     engine.runAndWait()
-
 def processcommand(c):
     if "open google" in c.lower():
         webbrowser.open("http://google.com")
